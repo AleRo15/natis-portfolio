@@ -15,58 +15,58 @@ const imagenes = {
     ========================= */
 
     packs: [
-        "../assets/edits/images/packs/pack1.gif",
-        "../assets/edits/images/packs/pack2.gif",
-        "../assets/edits/images/packs/pack3.gif",
-        "../assets/edits/images/packs/pack4.gif",
-        "../assets/edits/images/packs/pack5.gif",
-        "../assets/edits/images/packs/pack6.gif",
-        "../assets/edits/images/packs/pack7.gif",
-        "../assets/edits/images/packs/pack8.gif",
-        "../assets/edits/images/packs/pack9.gif",
-        "../assets/edits/images/packs/pack10.gif",
-        "../assets/edits/images/packs/pack11.gif",
-        "../assets/edits/images/packs/pack12.gif",
-        "../assets/edits/images/packs/pack13.gif",
-        "../assets/edits/images/packs/pack14.gif",
-        "../assets/edits/images/packs/pack15.png"
+        "./assets/edits/images/packs/pack1.gif",
+        "./assets/edits/images/packs/pack2.gif",
+        "./assets/edits/images/packs/pack3.gif",
+        "./assets/edits/images/packs/pack4.gif",
+        "./assets/edits/images/packs/pack5.gif",
+        "./assets/edits/images/packs/pack6.gif",
+        "./assets/edits/images/packs/pack7.gif",
+        "./assets/edits/images/packs/pack8.gif",
+        "./assets/edits/images/packs/pack9.gif",
+        "./assets/edits/images/packs/pack10.gif",
+        "./assets/edits/images/packs/pack11.gif",
+        "./assets/edits/images/packs/pack12.gif",
+        "./assets/edits/images/packs/pack13.gif",
+        "./assets/edits/images/packs/pack14.gif",
+        "./assets/edits/images/packs/pack15.png"
     ],
 
     minipacks: [
-        "../assets/edits/images/mini-packs/mini1.gif",
-        "../assets/edits/images/mini-packs/mini2.gif",
-        "../assets/edits/images/mini-packs/mini3.gif",
-        "../assets/edits/images/mini-packs/mini4.gif",
-        "../assets/edits/images/mini-packs/mini5.gif",
-        "../assets/edits/images/mini-packs/mini6.png",
-        "../assets/edits/images/mini-packs/mini7.gif",
-        "../assets/edits/images/mini-packs/mini8.gif"
+        "./assets/edits/images/mini-packs/mini1.gif",
+        "./assets/edits/images/mini-packs/mini2.gif",
+        "./assets/edits/images/mini-packs/mini3.gif",
+        "./assets/edits/images/mini-packs/mini4.gif",
+        "./assets/edits/images/mini-packs/mini5.gif",
+        "./assets/edits/images/mini-packs/mini6.png",
+        "./assets/edits/images/mini-packs/mini7.gif",
+        "./assets/edits/images/mini-packs/mini8.gif"
     ],
 
     themes: [
-        "../assets/edits/images/themes/theme1.gif",
-        "../assets/edits/images/themes/theme2.png",
-        "../assets/edits/images/themes/theme3.png",
-        "../assets/edits/images/themes/theme4.gif",
-        "../assets/edits/images/themes/theme5.png",
-        "../assets/edits/images/themes/theme6.gif",
-        "../assets/edits/images/themes/theme7.gif",
-        "../assets/edits/images/themes/theme8.gif",
-        "../assets/edits/images/themes/theme9.png",
-        "../assets/edits/images/themes/theme10.png",
-        "../assets/edits/images/themes/theme11.png",
-        "../assets/edits/images/themes/theme12.png",
-        "../assets/edits/images/themes/theme13.gif",
-        "../assets/edits/images/themes/theme14.png",
-        "../assets/edits/images/themes/theme15.png",
-        "../assets/edits/images/themes/theme16.png",
-        "../assets/edits/images/themes/theme17.png",
-        "../assets/edits/images/themes/theme18.gif"
+        "./assets/edits/images/themes/theme1.gif",
+        "./assets/edits/images/themes/theme2.png",
+        "./assets/edits/images/themes/theme3.png",
+        "./assets/edits/images/themes/theme4.gif",
+        "./assets/edits/images/themes/theme5.png",
+        "./assets/edits/images/themes/theme6.gif",
+        "./assets/edits/images/themes/theme7.gif",
+        "./assets/edits/images/themes/theme8.gif",
+        "./assets/edits/images/themes/theme9.png",
+        "./assets/edits/images/themes/theme10.png",
+        "./assets/edits/images/themes/theme11.png",
+        "./assets/edits/images/themes/theme12.png",
+        "./assets/edits/images/themes/theme13.gif",
+        "./assets/edits/images/themes/theme14.png",
+        "./assets/edits/images/themes/theme15.png",
+        "./assets/edits/images/themes/theme16.png",
+        "./assets/edits/images/themes/theme17.png",
+        "./assets/edits/images/themes/theme18.gif"
     ],
 
     sepspcs: [
-        "../assets/edits/images/seps-pcs/sep1.gif",
-        "../assets/edits/images/seps-pcs/sep2.gif"
+        "./assets/edits/images/seps-pcs/sep1.gif",
+        "./assets/edits/images/seps-pcs/sep2.gif"
     ],
 
 
@@ -75,78 +75,78 @@ const imagenes = {
     ========================= */
 
     portadas: [
-        "../assets/edits/portadas/portada1.gif",
-        "../assets/edits/portadas/portada2.gif",
-        "../assets/edits/portadas/portada3.gif",
-        "../assets/edits/portadas/portada4.gif",
-        "../assets/edits/portadas/portada5.gif"
+        "./assets/edits/portadas/portada1.gif",
+        "./assets/edits/portadas/portada2.gif",
+        "./assets/edits/portadas/portada3.gif",
+        "./assets/edits/portadas/portada4.gif",
+        "./assets/edits/portadas/portada5.gif"
     ],
 
     blog: [
-        "../assets/edits/blog/blog1.gif",
-        "../assets/edits/blog/blog2-1.gif",
-        "../assets/edits/blog/blog2-2.gif",
-        "../assets/edits/blog/blog2-3.gif"
+        "./assets/edits/blog/blog1.gif",
+        "./assets/edits/blog/blog2-1.gif",
+        "./assets/edits/blog/blog2-2.gif",
+        "./assets/edits/blog/blog2-3.gif"
     ],
 
     perfil: [
-        "../assets/edits/perfil/perfil1.gif",
-        "../assets/edits/perfil/perfil2.gif",
-        "../assets/edits/perfil/fdp3.gif",
-        "../assets/edits/perfil/banner3.gif",
-        "../assets/edits/perfil/wikis3.gif",
-        "../assets/edits/perfil/perfil4.gif",
-        "../assets/edits/perfil/fdp5.gif",
-        "../assets/edits/perfil/banner5.gif",
-        "../assets/edits/perfil/fdp6.gif",
-        "../assets/edits/perfil/banner6.gif",
-        "../assets/edits/perfil/perfil7.gif",
-        "../assets/edits/perfil/perfil8.gif",
-        "../assets/edits/perfil/perfil9.gif",
-        "../assets/edits/perfil/perfil10.gif",
-        "../assets/edits/perfil/perfil11.gif",
-        "../assets/edits/perfil/perfil12.gif",
+        "./assets/edits/perfil/perfil1.gif",
+        "./assets/edits/perfil/perfil2.gif",
+        "./assets/edits/perfil/fdp3.gif",
+        "./assets/edits/perfil/banner3.gif",
+        "./assets/edits/perfil/wikis3.gif",
+        "./assets/edits/perfil/perfil4.gif",
+        "./assets/edits/perfil/fdp5.gif",
+        "./assets/edits/perfil/banner5.gif",
+        "./assets/edits/perfil/fdp6.gif",
+        "./assets/edits/perfil/banner6.gif",
+        "./assets/edits/perfil/perfil7.gif",
+        "./assets/edits/perfil/perfil8.gif",
+        "./assets/edits/perfil/perfil9.gif",
+        "./assets/edits/perfil/perfil10.gif",
+        "./assets/edits/perfil/perfil11.gif",
+        "./assets/edits/perfil/perfil12.gif",
 
-        "../assets/edits/perfil/pic1.gif",
-        "../assets/edits/perfil/pic2.gif",
-        "../assets/edits/perfil/pic3.gif",
-        "../assets/edits/perfil/pic4.gif",
-        "../assets/edits/perfil/pic5.gif",
-        "../assets/edits/perfil/pic6.gif"
+        "./assets/edits/perfil/pic1.gif",
+        "./assets/edits/perfil/pic2.gif",
+        "./assets/edits/perfil/pic3.gif",
+        "./assets/edits/perfil/pic4.gif",
+        "./assets/edits/perfil/pic5.gif",
+        "./assets/edits/perfil/pic6.gif"
     ],
 
     banners: [
-        "../assets/edits/banners/banner1.gif",
-        "../assets/edits/banners/banner2.gif"
+        "./assets/edits/banners/banner1.gif",
+        "./assets/edits/banners/banner2.gif"
     ],
 
     commthemes: [
-        "../assets/edits/commthemes/comm-theme1.gif",
-        "../assets/edits/commthemes/comm-theme2.gif",
-        "../assets/edits/commthemes/comm-theme3.gif",
-        "../assets/edits/commthemes/comm-theme4.gif",
-        "../assets/edits/commthemes/comm-theme5.png",
-        "../assets/edits/commthemes/comm-theme6.gif"
+        "./assets/edits/commthemes/comm-theme1.gif",
+        "./assets/edits/commthemes/comm-theme2.gif",
+        "./assets/edits/commthemes/comm-theme3.gif",
+        "./assets/edits/commthemes/comm-theme4.gif",
+        "./assets/edits/commthemes/comm-theme5.png",
+        "./assets/edits/commthemes/comm-theme6.gif"
     ],
 
     chatthemes: [
-        "../assets/edits/chatthemes/chat-theme1-1.gif",
-        "../assets/edits/chatthemes/chat-theme1-2.gif"
+        "./assets/edits/chatthemes/chat-theme1-1.gif",
+        "./assets/edits/chatthemes/chat-theme1-2.gif"
     ],
 
     setthemes: [
-        "../assets/edits/setthemes/set-theme1.gif",
-        "../assets/edits/setthemes/set-theme2.png",
-        "../assets/edits/setthemes/set-theme3.png",
-        "../assets/edits/setthemes/set-theme4.png",
-        "../assets/edits/setthemes/set-theme5.png",
-        "../assets/edits/setthemes/set-theme6.png",
-        "../assets/edits/setthemes/set-theme7.jpg",
-        "../assets/edits/setthemes/set-theme8.jpg",
-        "../assets/edits/setthemes/set-theme9.png",
-        "../assets/edits/setthemes/set-theme10.jpg",
-        "../assets/edits/setthemes/set-theme11.png",
-        "../assets/edits/setthemes/set-theme12.gif"
+        "./assets/edits/setthemes/set-theme1.gif",
+        "./assets/edits/setthemes/set-theme2.png",
+        "./assets/edits/setthemes/set-theme3.png",
+        "./assets/edits/setthemes/set-theme4.png",
+        "./assets/edits/setthemes/set-theme5.png",
+        "./assets/edits/setthemes/set-theme6.png",
+        "./assets/edits/setthemes/set-theme7.jpg",
+        "./assets/edits/setthemes/set-theme8.jpg",
+        "./assets/edits/setthemes/set-theme9.png",
+        "./assets/edits/setthemes/set-theme10.jpg",
+        "./assets/edits/setthemes/set-theme11.png",
+        "./assets/edits/setthemes/set-theme12.gif"
     ]
 };
 
@@ -616,10 +616,10 @@ const scoreElement = document.getElementById("score");
    SONIDOS
 ========================================================= */
 
-const soundStart = new Audio("../assets/sounds/start.mp3");
-const soundOpen = new Audio("../assets/sounds/open.mp3");
-const soundEnter = new Audio("../assets/sounds/enter.mp3");
-const soundBack = new Audio("../assets/sounds/back.mp3");
+const soundStart = new Audio("./assets/sounds/start.mp3");
+const soundOpen = new Audio("./assets/sounds/open.mp3");
+const soundEnter = new Audio("./assets/sounds/enter.mp3");
+const soundBack = new Audio("./assets/sounds/back.mp3");
 
 soundStart.volume = 0.4;
 soundOpen.volume = 0.4;
