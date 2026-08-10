@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NATI'S PORTFOLIO</title>
+<link rel="icon" type="image/png" href="../assets/favicon.png">
+
+<!-- Fuentes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../styles/styles.css">
+
+</head>
+
+<body>
+
+<!-- CRT -->
+<div class="crt">
+    <div class="scanlines"></div>
+    <div class="noise"></div>
+</div>
+
+<!-- Partículas -->
+<canvas id="particles"></canvas>
+
+<!-- Cursor -->
+<div id="pixelCursor"></div>
+
+
+<!-- ========================================= -->
+<!-- INTRO -->
+<!-- ========================================= -->
+
+<section class="screen intro" id="intro">
+
+    <div class="intro-grid"></div>
+
+    <div class="intro-content">
+
+        <div class="system-text">
+            SYSTEM BOOT // PIXEL ARCHIVE
+        </div>
+
+        <div class="logo-wrap">
+
+            <div class="logo-small">
+                DIGITAL CREATIVE
+            </div>
+
+            <h1 class="logo">
+                NATI'S<br>
+                <span>PORTFOLIO</span>
+            </h1>
+
+            <div class="logo-line">
+                ═══════════════════════════
+            </div>
+
+            <p class="logo-sub">
+                EDITION PORTFOLIO
+            </p>
+
+        </div>
+
+        <div class="boot-info">
+
+            <span>GRAPHICS: <b>ONLINE</b></span>
+            <span>MEMORY: <b>64KB</b></span>
+            <span>STATUS: <b>READY</b></span>
+
+        </div>
+
+        <button id="startBtn" class="pixel-button start-button">
+            <span class="button-icon">▶</span>
+            INSERT COIN
+        </button>
+
+        <div class="press-start">
+            PRESS ENTER TO START
+        </div>
+
+    </div>
+
+    <div class="version">
+        VERSION 2.026
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- MENU PRINCIPAL -->
+<!-- ========================================= -->
+
+<section class="screen menu-section" id="menu">
+
+    <header class="hud">
+
+        <div class="hud-left">
+
+            <div class="player">
+                <span class="hud-label">PLAYER</span>
+                <span class="hud-value">01</span>
+            </div>
+
+            <div class="level">
+                <span class="hud-label">LEVEL</span>
+                <span class="hud-value">08</span>
+            </div>
+
+        </div>
+
+        <div class="hud-center">
+            PIXEL ARCHIVE
+        </div>
+
+        <div class="hud-right">
+
+            <div>
+                <span class="hud-label">SCORE</span>
+                <span id="score">008420</span>
+            </div>
+
+            <div class="online">
+                ● ONLINE
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="menu-container">
+
+        <div class="menu-heading">
+
+            <span class="stage-number">
+                MAIN MENU
+            </span>
+
+            <h2>
+                SELECT STAGE
+            </h2>
+
+            <p>
+                CHOOSE AN ARCHIVE TO EXPLORE
+            </p>
+
+        </div>
+
+
+        <div class="stage-list">
+
+            <!-- TEMPLATES -->
+
+            <article class="stage-card" data-cat="plantillas">
+
+                <div class="stage-number-big">
+                    01
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status">
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        TEMPLATES
+                    </h3>
+
+                    <p>
+                        ALL OF MY WORK / TODAS MIS PLANTILLAS
+                    </p>
+
+                </div>
+
+                <button class="stage-button abrir-template">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- PORTADAS -->
+
+            <article class="stage-card" data-cat="portadas">
+
+                <div class="stage-number-big">
+                    02
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status">
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        COVERS
+                    </h3>
+
+                    <p>
+                        BLOG COVER / WIKI COVER
+                    </p>
+
+                </div>
+
+                <button class="stage-button abrir">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- BLOG PACK -->
+
+            <article class="stage-card" data-cat="blog">
+
+                <div class="stage-number-big">
+                    03
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status">
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        BLOG PACK
+                    </h3>
+
+                    <p>
+                        BLOG POST ASSETS
+                    </p>
+
+                </div>
+
+                <button class="stage-button abrir">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- PERFIL -->
+
+            <article class="stage-card" data-cat="perfil">
+
+                <div class="stage-number-big">
+                    04
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status">
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        PROFILE EDITS
+                    </h3>
+
+                    <p>
+                        AVATARS / PROFILE DESIGNS
+                    </p>
+
+                </div>
+
+                <button class="stage-button abrir">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- BANNERS -->
+
+            <article class="stage-card" data-cat="banners">
+
+                <div class="stage-number-big">
+                    05
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status">
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        COMM. BANNERS
+                    </h3>
+
+                    <p>
+                        HEADERS / SOCIAL MEDIA ART
+                    </p>
+
+                </div>
+
+                <button class="stage-button abrir">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- COMM. THEMES -->
+
+            <article class="stage-card" data-cat="commthemes">
+
+                <div class="stage-number-big">
+                    06
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status">
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        COMM. THEMES
+                    </h3>
+
+                    <p>
+                        DECORATION / COMMUNITY
+                    </p>
+
+                </div>
+
+                <button class="stage-button abrir">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- CHATROOM THEMES -->
+
+            <article class="stage-card" data-cat="chatthemes">
+
+                <div class="stage-number-big">
+                    07
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status">
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        CHATROOM THEMES
+                    </h3>
+
+                    <p>
+                        DECORATION / CHAT
+                    </p>
+
+                </div>
+
+                <button class="stage-button abrir">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- SET THEMES -->
+
+            <article class="stage-card" data-cat="setthemes">
+
+                <div class="stage-number-big">
+                    08
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status">
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        SET THEMES
+                    </h3>
+
+                    <p>
+                        PROFILE DESIGNS / EVENTS
+                    </p>
+
+                </div>
+
+                <button class="stage-button abrir">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- FUTURO -->
+
+            <article class="stage-card locked">
+
+                <div class="stage-number-big">
+                    09
+                </div>
+
+                <div class="stage-info">
+
+                    <span class="stage-status locked-status">
+                        [ LOCKED ]
+                    </span>
+
+                    <h3>
+                        SPECIAL WORK
+                    </h3>
+
+                    <p>
+                        MORE ASSETS COMING SOON
+                    </p>
+
+                </div>
+
+                <button class="stage-button" disabled>
+                    LOCKED
+                </button>
+
+            </article>
+
+        </div>
+
+
+        <div class="menu-footer">
+
+            <span>
+                ▲ ▼ SELECT
+            </span>
+
+            <span>
+                ENTER OPEN
+            </span>
+
+            <span>
+                ESC BACK
+            </span>
+
+        </div>
+
+    </main>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- SUBMENÚ TEMPLATES -->
+<!-- ========================================= -->
+
+<section class="templates-section" id="templatesMenu">
+
+    <header class="gallery-header templates-header">
+
+        <button id="templatesBackBtn" class="back-button">
+            ◀ BACK
+        </button>
+
+        <div>
+
+            <span class="gallery-stage">
+                STAGE 01 // SUBMENU
+            </span>
+
+            <h2>
+                TEMPLATES
+            </h2>
+
+        </div>
+
+        <div class="gallery-counter">
+            4 CATEGORIES
+        </div>
+
+    </header>
+
+
+    <main class="templates-container">
+
+        <div class="menu-heading">
+
+            <span class="stage-number">
+                TEMPLATES ARCHIVE
+            </span>
+
+            <h2>
+                SELECT CATEGORY
+            </h2>
+
+            <p>
+                CHOOSE A TEMPLATE ARCHIVE TO EXPLORE
+            </p>
+
+        </div>
+
+
+        <div class="template-list">
+
+            <!-- PACKS -->
+
+            <article
+                class="template-card"
+                data-template="packs"
+            >
+
+                <div class="template-number">
+                    01
+                </div>
+
+                <div class="template-info">
+
+                    <span>
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        PACKS
+                    </h3>
+
+                    <p>
+                        COMPLETE TEMPLATE PACKS
+                    </p>
+
+                </div>
+
+                <button class="stage-button template-open">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- MINI PACKS -->
+
+            <article
+                class="template-card"
+                data-template="minipacks"
+            >
+
+                <div class="template-number">
+                    02
+                </div>
+
+                <div class="template-info">
+
+                    <span>
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        MINI PACKS
+                    </h3>
+
+                    <p>
+                        THEME AND COVER
+                    </p>
+
+                </div>
+
+                <button class="stage-button template-open">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- THEMES -->
+
+            <article
+                class="template-card"
+                data-template="themes"
+            >
+
+                <div class="template-number">
+                    03
+                </div>
+
+                <div class="template-info">
+
+                    <span>
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        THEMES
+                    </h3>
+
+                    <p>
+                        COMPLETE VISUAL THEMES
+                    </p>
+
+                </div>
+
+                <button class="stage-button template-open">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+
+            <!-- SEPS / PCS -->
+
+            <article
+                class="template-card"
+                data-template="sepspcs"
+            >
+
+                <div class="template-number">
+                    04
+                </div>
+
+                <div class="template-info">
+
+                    <span>
+                        [ AVAILABLE ]
+                    </span>
+
+                    <h3>
+                        SEPS / PCS
+                    </h3>
+
+                    <p>
+                        SEPARATORS (HEADERS) / PHOTOCARDS
+                    </p>
+
+                </div>
+
+                <button class="stage-button template-open">
+                    ENTER
+                    <span>▶</span>
+                </button>
+
+            </article>
+
+        </div>
+
+
+        <div class="menu-footer">
+
+            <span>
+                ▲ ▼ SELECT
+            </span>
+
+            <span>
+                ENTER OPEN
+            </span>
+
+            <span>
+                ESC BACK
+            </span>
+
+        </div>
+
+    </main>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- GALERÍA -->
+<!-- ========================================= -->
+
+<section class="gallery-section" id="gallery">
+
+    <header class="gallery-header">
+
+        <button id="backBtn" class="back-button">
+            ◀ BACK
+        </button>
+
+        <div>
+
+            <span class="gallery-stage">
+                STAGE 01
+            </span>
+
+            <h2 id="galleryTitle">
+                PORTADAS
+            </h2>
+
+        </div>
+
+        <div class="gallery-counter">
+
+            ITEMS
+            <span id="galleryCount">
+                00 / 00
+            </span>
+
+        </div>
+
+    </header>
+
+
+    <div class="loading-screen" id="loadingScreen">
+
+        <div class="loading-title">
+            LOADING ASSETS...
+        </div>
+
+        <div class="loading-bar">
+
+            <div id="loadingProgress"></div>
+
+        </div>
+
+        <div id="loadingText">
+            INITIALIZING...
+        </div>
+
+    </div>
+
+
+    <div class="gallery-container">
+
+        <div class="gallery-grid" id="galleryGrid"></div>
+
+    </div>
+
+
+    <footer class="gallery-footer">
+
+        <span>
+            PIXEL ARCHIVE SYSTEM
+        </span>
+
+        <span>
+            SELECT ASSET TO INSPECT
+        </span>
+
+        <span>
+            <span class="green-dot">●</span>
+            SYSTEM ONLINE
+        </span>
+
+    </footer>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- MODAL -->
+<!-- ========================================= -->
+
+<div class="image-modal" id="imageModal">
+
+<div class="modal-overlay"></div>
+
+<div class="modal-window">
+
+    <header class="modal-header">
+
+        <span id="modalFile">
+            ASSET_001
+        </span>
+
+        <button id="closeModal">
+            [ X ]
+        </button>
+
+    </header>
+
+
+    <div class="modal-content">
+
+        <div class="image-frame">
+
+            <img
+                id="modalImage"
+                src=""
+                alt=""
+            >
+
+        </div>
+
+
+        <aside class="asset-info">
+
+
+            <!-- =========================================
+                 INFORMACIÓN PARA TEMPLATES
+            ========================================== -->
+
+            <div
+                class="modal-info-group modal-template-info"
+                id="modalTemplateInfo"
+            >
+
+                <!-- FILE -->
+
+                <div class="info-line">
+
+                    <span>FILE</span>
+
+                    <strong id="modalTemplateFile">
+                        ASSET_001
+                    </strong>
+
+                </div>
+
+
+                <!-- TYPE -->
+
+                <div class="info-line">
+
+                    <span>TYPE</span>
+
+                    <strong id="modalTemplateType">
+                        PACK
+                    </strong>
+
+                </div>
+
+
+                <!-- COLOR -->
+
+                <div class="info-line">
+
+                    <span>COLOR</span>
+
+                    <strong id="modalColor">
+                        CUSTOMIZABLE
+                    </strong>
+
+                </div>
+
+
+                <!-- IMAGES -->
+
+                <div class="info-line">
+
+                    <span>IMAGES</span>
+
+                    <strong id="modalImages">
+                        04-05 IMAGES
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================================
+                 INFORMACIÓN PARA RESTO DE CATEGORÍAS
+            ========================================== -->
+
+            <div
+                class="modal-info-group modal-default-info"
+                id="modalDefaultInfo"
+            >
+
+                <!-- FILE -->
+
+                <div class="info-line">
+
+                    <span>FILE</span>
+
+                    <strong id="modalDefaultFile">
+                        ASSET_001
+                    </strong>
+
+                </div>
+
+
+                <!-- TYPE -->
+
+                <div class="info-line">
+
+                    <span>TYPE</span>
+
+                    <strong id="modalDefaultType">
+                        DIGITAL EDIT
+                    </strong>
+
+                </div>
+
+
+                <!-- STATUS -->
+
+                <div class="info-line">
+
+                    <span>STATUS</span>
+
+                    <strong id="modalStatus">
+                        ARCHIVED
+                    </strong>
+
+                </div>
+
+
+                <!-- QUALITY -->
+
+                <div class="info-line">
+
+                    <span>QUALITY</span>
+
+                    <strong id="modalQuality">
+                        HIGH
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================================
+                 SYSTEM MESSAGE
+                 COMPARTIDO POR AMBOS MODALES
+            ========================================== -->
+
+            <div class="asset-divider"></div>
+
+
+            <div class="asset-message">
+
+                <span>
+                    ▶ SYSTEM MESSAGE
+                </span>
+
+                <p id="modalMessage">
+                    ASSET SUCCESSFULLY LOADED.
+                </p>
+
+            </div>
+
+
+        </aside>
+
+    </div>
+
+
+    <footer class="modal-footer">
+
+        <span>
+            ◀ PREVIOUS
+        </span>
+
+        <span>
+            CLOSE
+        </span>
+
+        <span>
+            NEXT ▶
+        </span>
+
+    </footer>
+
+</div>
+
+</div>
+
+
+<!-- ========================================= -->
+<!-- SOBRE MÍ -->
+<!-- ========================================= -->
+
+<section class="profile-section">
+
+    <div class="profile-container">
+
+        <div class="section-title">
+
+            <span>
+                SYSTEM DATABASE
+            </span>
+
+            <h2>
+                PLAYER PROFILE
+            </h2>
+
+        </div>
+
+    <div class="profile-card">
+
+        <div class="profile-avatar">
+
+            <img
+                class="profile-avatar-image"
+                src="../assets/edits/images/player01.png"
+                alt="Nati"
+            >
+
+            <div class="avatar-inner">
+                PLAYER<br>
+                01
+            </div>
+
+        </div>
+
+
+        <div class="profile-data">
+
+            <div class="profile-name">
+                NATI
+            </div>
+
+            <div class="profile-row">
+                <span>ROLE</span>
+                <strong>DIGITAL EDITOR</strong>
+            </div>
+
+            <div class="profile-row">
+                <span>CLASS</span>
+                <strong>VISUAL DESIGNER</strong>
+            </div>
+
+            <div class="profile-row">
+                <span>LEVEL</span>
+                <strong>08</strong>
+            </div>
+
+            <div class="profile-row">
+                <span>STATUS</span>
+                <strong class="green">AVAILABLE</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+        <div class="skills">
+
+            <h3>
+                SKILL TREE
+            </h3>
+
+            <div class="skill">
+
+                <span>IMAGE EDITING</span>
+
+                <div class="skill-bar">
+                    <i style="width: 92%"></i>
+                </div>
+
+                <b>92</b>
+
+            </div>
+
+            <div class="skill">
+
+                <span>COMPOSITION</span>
+
+                <div class="skill-bar">
+                    <i style="width: 88%"></i>
+                </div>
+
+                <b>88</b>
+
+            </div>
+
+            <div class="skill">
+
+                <span>COLOR</span>
+
+                <div class="skill-bar">
+                    <i style="width: 84%"></i>
+                </div>
+
+                <b>84</b>
+
+            </div>
+
+            <div class="skill">
+
+                <span>TYPOGRAPHY</span>
+
+                <div class="skill-bar">
+                    <i style="width: 80%"></i>
+                </div>
+
+                <b>80</b>
+
+            </div>
+
+        </div>
+
+    <div class="contact-box">
+
+        <div>
+
+            <span>
+                COMMUNICATION CHANNEL
+            </span>
+
+            <strong>
+                CONTACT ME
+            </strong>
+
+        </div>
+
+        <div class="contact-links">
+
+            <a
+                href="https://app.duckapps.com.br/u/natibby"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                GLOBAL
+            </a>
+
+            <a
+                href="https://app.duckapps.com.br/c/tienda-estetica-ducks/u/a7huuc"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                TED PROFILE
+            </a>
+
+            <a
+                href="af&e aquí dsps"
+            >
+                EVENT
+            </a>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</section>
+
+
+<!-- ========================================= -->
+<!-- FINAL -->
+<!-- ========================================= -->
+
+<section class="end-section">
+
+    <div class="end-content">
+
+        <div class="end-glitch">
+            GAME OVER?
+        </div>
+
+        <h2>
+            THANK YOU<br>
+            FOR PLAYING
+        </h2>
+
+        <p>
+            END OF ARCHIVE
+        </p>
+
+        <button id="restartBtn" class="pixel-button">
+            ↻ RESTART
+        </button>
+
+    </div>
+
+</section>
+
+<script src="../scripts/script.js"></script>
+
+</body>
+</html>
