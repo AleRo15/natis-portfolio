@@ -382,7 +382,7 @@ const informacionAssets = {
             file: "GINGERBREAD",
             color: "NON-CUSTOMIZABLE",
             images: "03-04 IMAGES",
-            message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!\nGIF SEQUENCE NOT AVAILABLE."
+            message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!\nGIF SEQUENCE NOT AVAILABLE.\nCOLLABORATION WITH @KIBU."
         },
 
         5: {
