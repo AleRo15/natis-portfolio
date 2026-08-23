@@ -40,7 +40,8 @@ const imagenes = {
         "./assets/edits/images/mini-packs/mini5.gif",
         "./assets/edits/images/mini-packs/mini6.png",
         "./assets/edits/images/mini-packs/mini7.gif",
-        "./assets/edits/images/mini-packs/mini8.gif"
+        "./assets/edits/images/mini-packs/mini8.gif",
+        "./assets/edits/images/mini-packs/mini9.gif"
     ],
 
     themes: [
@@ -342,6 +343,13 @@ const informacionAssets = {
             file: "YABIENES",
             color: "CUSTOMIZABLE / B&W",
             images: "02-03 IMAGES AND 2 RENDERS/PNGS",
+            message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!\nGIF SEQUENCE NOT AVAILABLE."
+        },
+
+        8: {
+            file: "CRUEL",
+            color: "CUSTOMIZABLE",
+            images: "01-02 IMAGES AND 1 RENDER/PNG",
             message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!\nGIF SEQUENCE NOT AVAILABLE."
         }
 
