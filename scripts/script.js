@@ -558,14 +558,14 @@ const informacionAssets = {
     },
 
     commthemes: {
-        6: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
-        7: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         0: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         1: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         2: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         3: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         4: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
-        5: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" }
+        5: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
+        6: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
+        7: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" }
     },
 
     chatthemes: {
