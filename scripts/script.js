@@ -76,6 +76,7 @@ const imagenes = {
     ========================= */
 
     portadas: [
+        "./assets/edits/portadas/portada6.gif",
         "./assets/edits/portadas/portada1.gif",
         "./assets/edits/portadas/portada2.gif",
         "./assets/edits/portadas/portada3.gif",
@@ -84,6 +85,7 @@ const imagenes = {
     ],
 
     blog: [
+        "./assets/edits/blog/blog3.gif",
         "./assets/edits/blog/blog1.gif",
         "./assets/edits/blog/blog2-1.gif",
         "./assets/edits/blog/blog2-2.gif",
@@ -517,14 +519,16 @@ const informacionAssets = {
         1: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         2: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         3: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
-        4: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" }
+        4: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
+        5: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" }
     },
 
     blog: {
         0: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         1: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         2: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
-        3: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" }
+        3: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
+        4: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" }
     },
 
     perfil: {
