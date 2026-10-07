@@ -122,8 +122,8 @@ const imagenes = {
     ],
 
     commthemes: [
-        "./assets/edits/commthemes/comm-theme7.gif",
         "./assets/edits/commthemes/comm-theme8.gif",
+        "./assets/edits/commthemes/comm-theme7.gif",
         "./assets/edits/commthemes/comm-theme1.gif",
         "./assets/edits/commthemes/comm-theme2.gif",
         "./assets/edits/commthemes/comm-theme3.gif",
