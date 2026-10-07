@@ -127,7 +127,9 @@ const imagenes = {
         "./assets/edits/commthemes/comm-theme3.gif",
         "./assets/edits/commthemes/comm-theme4.gif",
         "./assets/edits/commthemes/comm-theme5.png",
-        "./assets/edits/commthemes/comm-theme6.gif"
+        "./assets/edits/commthemes/comm-theme6.gif",
+        "./assets/edits/commthemes/comm-theme7.gif",
+        "./assets/edits/commthemes/comm-theme8.gif"
     ],
 
     chatthemes: [
@@ -556,6 +558,8 @@ const informacionAssets = {
     },
 
     commthemes: {
+        6: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
+        7: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         0: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         1: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
         2: { status: "ARCHIVED", quality: "HIGH", message: "CLICK THE IMAGE TO VIEW IT FULLSCREEN!" },
